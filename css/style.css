@@ -1,0 +1,186 @@
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Light.eot');
+	src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Light.woff') format('woff'),
+		url('../fonts/GothamRounded-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gotham Rounded';
+	src: url('../fonts/GothamRounded-Bold.eot');
+	src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GothamRounded-Bold.woff') format('woff'),
+		url('../fonts/GothamRounded-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+.wrapp{
+	width: 100%;
+	height: auto;
+}
+.wrapp_coin{
+	width: 100%;
+	background: url(../img/img1.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+	background-size:100%;
+	background-color: #eac3c3;
+}
+.text_head {
+	width: 400px;
+	font-size: 30px;
+	/*background-color: red;*/
+	text-align: center;
+	margin:auto;
+	color: #0b5c9e;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Gotham Rounded';
+}
+.text_amount {
+	width: 350px;
+	/*background-color: red;*/
+	margin:auto;
+	margin-top: 0px;
+	height: 50px;
+	font-style: 
+	font-family: 'Gotham Rounded';
+}
+.input_money{
+	color: white;
+	font-family: 'Gotham Rounded';
+}
+.amount_name{
+	color: white;
+	float:left;
+	font-family: 'Gotham Rounded';
+}
+.input_money{
+
+}
+
+.text_choose{
+	/*width: px;*/
+	/*background-color: white;*/
+	margin:auto;
+	float: left;
+	color: white;
+	font-family: 'Gotham Rounded';
+
+}
+.select_1{
+	width: 300px;
+	/*height: 100px;*/
+	/*background-color: white;*/
+}
+.wrap_choose{
+	width: 350px;
+	/*background-color: blue;*/
+	margin:auto;
+	font-family: 'Gotham Rounded';
+}
+
+.submit{
+	width: 300px;
+	height: 100px;
+	border-color: red;
+	margin: auto;
+	margin-top: 35px;
+	float: left;
+	font-size: 18px;
+	width: 10em;
+  height: 2em;
+
+}
+
+/*------------*/
+.wrapp_2{
+	width: 100%;
+	background: url(../img/img2.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+	background-size:100%;
+	background-color: #eac3c3;
+	font-family: 'Gotham Rounded';
+	color: white;
+	background-color: red;
+}
+.wrapp_2 h2{
+	padding-top: 50px;
+	font-size: 28px;
+	padding-bottom: 30px;
+	color: #12537f;
+}
+
+.center-on-page {
+  position: absolute;
+  top: 39%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  margin-top: 14px;
+}
+
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+
+}
+/* Custom Select */
+.select_1 {
+  position: relative;
+  display: block;
+  width: 10em;
+  height: 2em;
+  line-height: 2;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+  margin-top: -188px;
+}
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.select_1::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
+}
+/* Transition */
+.select_1:hover::after {
+  color: #f39c12;
+}
+.select_1::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+
+
